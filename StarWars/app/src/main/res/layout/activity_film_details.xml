@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context="com.girish.starwars.FilmDetailsActivity">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="Title:"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvTitleValue"
+            android:textSize="17dp"
+            android:text="value"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvEpisode"
+            android:textSize="20dp"
+            android:text="Episode Id:"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvEpisodeValue"
+            android:textSize="17dp"
+            android:text="value"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvDirector"
+            android:textSize="20dp"
+            android:text="Director:"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvDirectorValue"
+            android:textSize="17dp"
+            android:text="value"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvProducer"
+            android:textSize="20dp"
+            android:text="Producer:"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvProducerValue"
+            android:textSize="17dp"
+            android:text="value"/>
+    </TableRow>
+
+</TableLayout>
+    <TextView
+        android:id="@+id/tvPlot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plot:"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvPlotValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="value"/>
+
+</LinearLayout>
